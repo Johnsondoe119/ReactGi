@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Easy from "./Constructor/Easy";
+//Very Easy
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>Name: Johnson</h2>
+      <h2>Phone Number: 980 353-4582</h2>
+      <h2>DOB: May 27, 1999</h2>
+      <Easy />
     </div>
   );
 }
